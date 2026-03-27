@@ -21,12 +21,10 @@ elif average>=80:
     print("Grade:B")
 elif average>=70:
     print("Grade:C")
-elif average>=70:
-    print("Grade:D")
 elif average>=60:
-    print("Grade:E")
+    print("Grade:D")
 elif average>=50:
-    print("Grade:F")
+    print("Grade:E")
 
 else:
     print("need to burn your midnight candle")
@@ -35,3 +33,4 @@ if average>=90 or average>=80 and attendance>=90:
     print("you will be rewarded")
 else:
     print("no reward for you; try next time")
+
